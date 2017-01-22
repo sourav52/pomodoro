@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper-container">
+		<div class="">
+			<h1 class="text-center">Pomodoro Clock</h1>
+		</div>
+
+		<div class="container pomodoro-continer">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-6 text-center controls controlller1">
+						<label>BREAK LENGTH</label>
+						<div class="break-length">
+							<div id="break-minus">
+								<i class="fa fa-minus" aria-hidden="true"></i>
+							</div>
+							<div id="break-length">5</div>
+							<div id="break-plus">
+								<i class="fa fa-plus" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 text-center controls controlller2">
+						<label>SEASSION LENGTH</label>
+							<div class="session-length">
+								<div id="session-minus">
+									<i class="fa fa-minus" aria-hidden="true"></i>
+								</div>
+								<div id="session-length">25</div>
+								<div id="session-plus">
+									<i class="fa fa-plus" aria-hidden="true"></i>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="timer">
+				<div class="timer-content">
+					<p class="session">Session</p>
+					<p class="session">25</p><span class="fill" style="height: 0%;"></span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/script.js" ></script>
+</html>

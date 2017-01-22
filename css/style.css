@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+
+.wrapper-container{
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	background: url('http://www.walldevil.com/wallpapers/a68/wallpaper-abstract-image-textured-grill-black-wallpapers-texture.jpg');
+	background-size: cover;
+}
+
+h1{
+	margin-top: 80px !important;
+	color: #fff !important;
+	font-family: Open Sans, Arial !important;
+}
+
+label{
+	color: #fff;
+	font-weight: normal;
+}
+
+.pomodoro-continer{
+	position: relative;
+	top: 50px;
+	font-family: Open Sans, Arial !important;
+}
+
+.controls{
+	color: #fff;
+}
+
+.controlller1 ul{
+	width: 60%;
+	list-style-type: none;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 400;
+	margin: 0px !important;
+	padding: 0px !important;
+	text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.break-length{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.break-length div{
+	width: 33%;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+}
+
+.session-length{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.session-length div{
+	width: 33%;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+}
+
+.circle-container{
+	position: absolute;
+	width: 50%;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.circle{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 180px;
+}
+
+
+.timer {
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	font-size: 4em;
+	border: 10px solid #a8ad99;
+	border-radius: 50%;
+	cursor: pointer;
+	position: relative;
+	z-index: 20;
+	overflow: hidden;
+	-moz-animation: nibble 10s infinite alternate;
+	-webkit-animation: nibble 10s infinite alternate;
+	-ms-animation: nibble 10s infinite alternate;
+	-o-animation: nibble 10s infinite alternate;
+	animation: nibble 10s infinite alternate;
+	/*line-height: 200px;*/
+}
+.timer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  z-index: 2;
+  border: 4px solid #8c8b8b;
+}
+.fill {
+  content: '';
+  position: absolute;
+  background: #99CC00;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.session{
+	color: #fff;
+	font-weight: bold;
+}
+
+.timer-content{
+	margin-top: 50px;
+}
+
+
+/*@keyframes nibble{
+	1%{
+		border-bottom-right-radius: 280px;
+		border-top-left-radius: 300px;
+		border-bottom-left-radius: 300px;
+		border-top-right-radius: 300px;
+	}
+
+	20%{
+		border-bottom-right-radius: 300px;
+		border-top-left-radius: 285px;
+		border-bottom-left-radius: 300px;
+		border-top-right-radius: 300px;
+	}
+
+
+	30%{
+		border-bottom-right-radius: 300px;
+		border-top-left-radius: 300px;
+		border-bottom-left-radius: 293px;
+		border-top-right-radius: 300px;
+	}
+
+	40%{
+		border-bottom-right-radius: 300px;
+		border-top-left-radius: 300px;
+		border-bottom-left-radius: 300px;
+		border-top-right-radius: 295px;
+	}
+
+	50%{
+		border-bottom-right-radius: 300px;
+		border-top-left-radius: 300px;
+		border-bottom-left-radius: 297px;
+		border-top-right-radius: 87px;
+	}
+
+	60%{
+		border-bottom-right-radius: 294px;
+		border-top-left-radius: 300px;
+		border-bottom-left-radius: 300px;
+		border-top-right-radius: 300px;
+	}
+
+	70%{
+		border-bottom-right-radius: 300px;
+		border-top-left-radius: 279px;
+		border-bottom-left-radius: 300px;
+		border-top-right-radius: 300px;
+	}
+
+	80%{
+		border-bottom-right-radius: 300px;
+		border-top-left-radius: 300px;
+		border-bottom-left-radius: 300px;
+		border-top-right-radius: 295px;
+	}
+
+	90%{
+		border-bottom-right-radius: 300px;
+		border-top-left-radius: 275px;
+		border-bottom-left-radius: 3100px;
+		border-top-right-radius: 300px;
+	}
+
+	100%{
+		border-top-left-radius: 260px;
+		border-bottom-left-radius: 300px;
+		border-top-right-radius: 300px;
+		border-bottom-right-radius: 260px;
+	}
+}*/
+
+/*@-o-keyframes nibble{
+	1%{
+		border-top-left-radius: 100px;
+		border-bottom-left-radius: 100px;
+		border-top-right-radius: 100px;
+		border-bottom-right-radius: 90px;
+		background-color: red;
+	}
+
+	100%{
+		border-top-left-radius: 100px;
+		border-bottom-left-radius: 100px;
+		border-top-right-radius: 100px;
+		border-bottom-right-radius: 90px;
+		background-color: green;
+	}
+}*/
+
+/*@-moz-keyframes nibble{
+	1%{
+		border-top-left-radius: 100px;
+		border-bottom-left-radius: 100px;
+		border-top-right-radius: 100px;
+		border-bottom-right-radius: 90px;
+		background-color: red;
+	}
+
+	100%{
+		border-top-left-radius: 100px;
+		border-bottom-left-radius: 100px;
+		border-top-right-radius: 100px;
+		border-bottom-right-radius: 90px;
+		background-color: green;
+	}
+}*/
+
+/*@-webkit-keyframes nibble{
+	1%{
+		border-top-left-radius: 100px;
+		border-bottom-left-radius: 100px;
+		border-top-right-radius: 100px;
+		border-bottom-right-radius: 90px;
+		background-color: red;
+	}
+
+	100%{
+		border-top-left-radius: 100px;
+		border-bottom-left-radius: 100px;
+		border-top-right-radius: 100px;
+		border-bottom-right-radius: 90px;
+		background-color: green;
+	}	
+}*/
+
+/*@-ms-keyframes nibble{
+	
+}*/
